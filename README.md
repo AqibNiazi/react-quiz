@@ -6,6 +6,8 @@ This is a **React-based Quiz Application** where users can test their knowledge 
 
 👉 [View Deployed Application](https://react-quiz-mu-two.vercel.app/)
 
+---
+
 ## 📸 Features
 
 - ⏱️ **Timer-Based Questions** – Each question has a countdown timer.
@@ -14,27 +16,40 @@ This is a **React-based Quiz Application** where users can test their knowledge 
 - 📊 **Quiz Summary** – End-of-quiz summary includes:
   - Number and percentage of correct, incorrect, and skipped questions.
   - Detailed list of each question with selected and correct answers.
-🧠 Concepts Practiced
+
+---
+
+## 🧠 Concepts Practiced
+
 This project was built to sharpen React fundamentals and state management skills:
 
-useState – Manage dynamic data like selected answers, score, and timer.
+- **useState** – Manage dynamic data like selected answers, score, and timer.
+- **useEffect** – Handle timer logic and side effects like auto-skipping questions.
+- **useRef** – Control timer references and prevent unnecessary re-renders.
+- **useContext** – Share quiz state and functions across multiple components easily.
+- **Conditional Rendering** – Show/hide question results and summary based on user interactions.
+- **Component Structure** – Clean modular components for better reusability.
 
-useEffect – Handle timer logic and side effects like auto-skipping questions.
+---
 
-useRef – Control timer references and prevent unnecessary re-renders.
+## 📷 Screenshots
 
-useContext – Share quiz state and functions across multiple components easily.
+### 🏁 Quiz Start Page  
+![Start Quiz](https://github.com/AqibNiazi/react-quiz/blob/main/src/assets/start-page.png)
 
-Conditional Rendering – Show/hide question results and summary based on user interactions.
+### 📊 Quiz Summary  
+![Quiz Summary](https://github.com/AqibNiazi/react-quiz/blob/main/src/assets/quiz-summary.png)
 
-Component Structure – Clean modular components for better reusability.
+---
 
 ## 🛠️ Built With
 
 - **React** – Frontend Library
-- **CSS** – Styling
+- **CSS / Tailwind (if used)** – Styling
 - **Vite / CRA** – Development environment (depending on what you used)
-- **Vercel** – For deployment
+- **GitHub Pages** – For deployment
+
+---
 
 ## 📂 How to Run Locally
 
@@ -44,8 +59,14 @@ cd react-quiz
 npm install
 npm run dev # or npm start
 ```
-📷 Screenshots
 
+---
+
+## 📦 Deployment
+
+This project is deployed using **Vercel**.
+
+---
 
 ## 🧑‍💻 Author
 
