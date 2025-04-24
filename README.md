@@ -14,6 +14,20 @@ This is a **React-based Quiz Application** where users can test their knowledge 
 - 📊 **Quiz Summary** – End-of-quiz summary includes:
   - Number and percentage of correct, incorrect, and skipped questions.
   - Detailed list of each question with selected and correct answers.
+🧠 Concepts Practiced
+This project was built to sharpen React fundamentals and state management skills:
+
+useState – Manage dynamic data like selected answers, score, and timer.
+
+useEffect – Handle timer logic and side effects like auto-skipping questions.
+
+useRef – Control timer references and prevent unnecessary re-renders.
+
+useContext – Share quiz state and functions across multiple components easily.
+
+Conditional Rendering – Show/hide question results and summary based on user interactions.
+
+Component Structure – Clean modular components for better reusability.
 
 ## 🛠️ Built With
 
@@ -30,6 +44,9 @@ cd react-quiz
 npm install
 npm run dev # or npm start
 ```
+📷 Screenshots
+
+
 ## 🧑‍💻 Author
 
 **Aqib Niazi**  
