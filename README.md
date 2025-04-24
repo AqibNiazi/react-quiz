@@ -8,7 +8,7 @@ This is a **React-based Quiz Application** where users can test their knowledge 
 
 ## 🚀 Live Demo
 
-👉 [View Deployed Application](https://aqibniazi.github.io/react-quiz)
+👉 [View Deployed Application](https://react-quiz-mu-two.vercel.app/)
 
 ## 📸 Features
 
